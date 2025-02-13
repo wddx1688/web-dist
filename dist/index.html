@@ -2,25 +2,28 @@
 <html lang="en" translate="no">
   <head>
     <!-- customize head -->
-    <meta charset="utf-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
-    <meta name="referrer" content="same-origin" >
-    <meta name="generator" content="AList V3" >
-    <meta name="theme-color" content="#000000" >
-    <meta name="google" content="notranslate" >
-    
-    <meta name="apple-mobile-web-app-capable" content="yes" >
-    <meta name="apple-mobile-web-app-title" content="AList" >
-    <link       rel="apple-touch-icon"
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="same-origin" />
+    <meta name="generator" content="AList V3" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="google" content="notranslate" />
+    <link href="/static/manifest.json" rel="manifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="AList" />
+    <link
+      rel="apple-touch-icon"
       href="https://imageapi.edgeone.site/image/alist.png"
-    >
-    <script       src="https://g.alicdn.com/IMM/office-js/1.1.5/aliyun-web-office-sdk.min.js"
+    />
+    <script
+      src="https://g.alicdn.com/IMM/office-js/1.1.5/aliyun-web-office-sdk.min.js"
       async
     ></script>
-    <link       rel="shortcut icon"
+    <link
+      rel="shortcut icon"
       type="image/ico"
       href="https://imageapi.edgeone.site/image/alist.png"
-    >
+    />
     <title>Loading...</title>
     <script>
       window.ALIST = {
@@ -35,7 +38,7 @@
       <!--Alist V3建议添加的，已经默认添加了，如果你的没有建议加上-->
   <script src="https://polyfill.alicdn.com/v3/polyfill.min.js?features=String.prototype.replaceAll"></script>
   <!--引入字体，全局字体使用-->
-  <link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-webfont@1.1.0/lxgwwenkai-regular.css" >
+  <link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-webfont@1.1.0/lxgwwenkai-regular.css" />
   <!--看板娘大小和对话框高度-->
   <style type="text/css">
     #waifu #live2d {
@@ -46,7 +49,7 @@
 <!-- 顺序切换模型材质 -->
 <script src="https://live2d.kafuchino.top/live2d.js"></script>
 <!-- 看板娘位置靠左 -->
-<link rel="stylesheet" href="https://live2d.kafuchino.top/left.css">
+<link rel="stylesheet" href="https://live2d.kafuchino.top/left.css"/>
 <!--不蒜子计数器-->
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <style>
@@ -89,12 +92,12 @@
   }
   </style>
  <!-- Font6，自定义底部使用和看板娘使用的图标和字体文件-->
-<link type="text/css" rel="stylesheet" href="https://npm.elemecdn.com/font6pro@6.3.0/css/fontawesome.min.css" media="all" >
-<link href="https://npm.elemecdn.com/font6pro@6.3.0/css/all.min.css" rel="stylesheet" >
+<link type="text/css" rel="stylesheet" href="https://npm.elemecdn.com/font6pro@6.3.0/css/fontawesome.min.css" media="all" />
+<link href="https://npm.elemecdn.com/font6pro@6.3.0/css/all.min.css" rel="stylesheet" />
 
 <!--音乐播放器所用的文件-->
 <!-- require APlayer -->
-<link rel="stylesheet" href="https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.css" >
+<link rel="stylesheet" href="https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.css" />
 <script src="https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
 <!-- require MetingJS -->
 <script src="https://npm.elemecdn.com/meting2@0.0.1/js/Meting.min.js"></script>
@@ -284,40 +287,12 @@
     left: 0 !important;
   }
     </style>
-    
-    
-    <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
-    <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src= window.__dynamic_base__+e.getAttribute('data-src'),n.onload=function(){System.import( window.__dynamic_base__+document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
-    <script>
-(function(){
-var preloads = [{"parentTagName":"head","tagName":"link","attrs":{"href":"/static/manifest.json","rel":"manifest"}},{"parentTagName":"head","tagName":"script","attrs":{"type":"module","crossorigin":"","src":"/assets/index.34393b7b.js"}},{"parentTagName":"head","tagName":"link","attrs":{"rel":"stylesheet","href":"/assets/index.c4c82a28.css"}}];
-function setAttribute(target, attrs) {
-for (var key in attrs) {
-  target.setAttribute(key, attrs[key]);
-}
-return target;
-};
-for(var i = 0; i < preloads.length; i++){
-var item = preloads[i]
-var childNode = document.createElement(item.tagName);
-setAttribute(childNode, item.attrs)
-if( window.__dynamic_base__) {
-  if(item.tagName == 'link') {
-    setAttribute(childNode, { href:  window.__dynamic_base__ + item.attrs.href })
-  } else if (item.tagName == 'script') {
-    setAttribute(childNode, { src:  window.__dynamic_base__ + item.attrs.src })
-  }
-}
-document.getElementsByTagName(item.parentTagName)[0].appendChild(childNode);
-}
-})();
-</script>
-</head>
+  </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
-    
+    <script src="/src/main.tsx" type="module"></script>
     <!-- customize body -->
     <!--延迟加载-->
 <!--如果要写自定义内容建议都加到这个延迟加载的范围内-->
@@ -383,7 +358,7 @@ document.getElementsByTagName(item.parentTagName)[0].appendChild(childNode);
       placeholder: "有什么问题欢迎评论区留言~"
     }) 
   </script>-->
-      <br>
+      <br />
       <center class="dibu">
           <div style=" line-height: 20px;font-size: 9pt;font-weight: bold;">
               <span>
@@ -446,12 +421,12 @@ document.getElementsByTagName(item.parentTagName)[0].appendChild(childNode);
                       Alist
                   </a>
               </span>
-        <br>
+        <br />
         <!--添加一个访问量-->
         <span>
                     本"<span style="color: rgb(13, 109, 252); font-weight: bold;"><a href="#">目录</a></span>"访问量 <span id="busuanzi_value_page_pv" style="color: rgb(13, 109, 252); font-weight: bold;"></span> 次 本站总访问量 <span id="busuanzi_value_site_pv" style="color: rgb(13, 109, 252); font-weight: bold;"></span>                次 本站总访客数 <span id="busuanzi_value_site_uv" style="color: rgb(13, 109, 252); font-weight: bold;"></span> 人
                 </span>
-                <br>
+                <br />
       <!--添加备案信息-->
               <span class="nav-item">
                   <a class="nav-link" href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
@@ -462,8 +437,8 @@ document.getElementsByTagName(item.parentTagName)[0].appendChild(childNode);
               </span>
           </div>
       </center>
-      <br>
-      <br>
+      <br />
+      <br />
   </div>
 
 
@@ -507,15 +482,5 @@ var granimInstance = new Granim({
   }
 });
 </script>
-    <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
-    <script nomodule crossorigin id="vite-legacy-polyfill" data-src="/assets/polyfills-legacy.fbea2b39.js">!(function() {
-      var e = document.createElement('script')
-      e.src =  window.__dynamic_base__ + document.getElementById('vite-legacy-polyfill').getAttribute('data-src');
-      e.onload = function() {
-        System.import( window.__dynamic_base__+document.getElementById('vite-legacy-entry').getAttribute('data-src'))
-      };
-      document.body.appendChild(e)
-    })();</script>
-    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.bbdfdab1.js"></script>
   </body>
 </html>
